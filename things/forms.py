@@ -15,4 +15,4 @@ class ThingForm(forms.Form):
     description = forms.CharField(max_length=120,widget=forms.Textarea())
     quantity = forms.IntegerField(validators=[MinValueValidator(0),MaxValueValidator(50)],widget=forms.NumberInput())
 
-
+       
